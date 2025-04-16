@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
 $username = "root";
-$password = "";
+$password = "hello123";
 $database = "bluebirdhotel";
 
 $conn = mysqli_connect($server,$username,$password,$database);

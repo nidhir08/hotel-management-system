@@ -1,15 +1,15 @@
 <?php
 
 include '../config.php';
-session_start();
+//session_start();
 
 // page redirect
 $usermail="";
-$usermail=$_SESSION['usermail'];
+//$usermail=$_SESSION['usermail'];
 if($usermail == true){
 
 }else{
-  header("location: http://localhost/hotelmanage_system/index.php");
+  //header("location: http://localhost/hotelmanage_system/index.php");
 }
 
 ?>

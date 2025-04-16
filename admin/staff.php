@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include '../config.php';
 ?>
 
@@ -37,11 +37,11 @@ include '../config.php';
                 <option value="Manager">Manager</option>
                 <option value="Cook">Cook</option>
                 <option value="Helper">Helper</option>
-                <option value="cleaner">cleaner</option>
-                <option value="weighter">weighter</option>
+                <option value="cleaner">Cleaner</option>
+                <option value="Waiter">Waiter</option>
             </select>
 
-            <button type="submit" class="btn btn-success" name="addstaff">Add Room</button>
+            <button type="submit" class="btn btn-success" name="addstaff">Add Staff</button>
         </form>
 
         <?php
@@ -53,7 +53,7 @@ include '../config.php';
             $result = mysqli_query($conn, $sql);
 
             if ($result) {
-                header("Location: staff.php");
+               // header("Location: staff.php");
             }
         }
         ?>
