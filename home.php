@@ -419,8 +419,11 @@ if($usermail == true){
 
   <section id="contactus">
     <div class="social">
-      <!-- <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-facebook"></i>
+    <a href="https://github.com/nidhir08" target="_blank">
+  <i class="fa-brands fa-github"></i>
+</a>
+
+      <!--<i class="fa-brands fa-facebook"></i>
       <i class="fa-solid fa-envelope"></i> -->
     </div>
     <div class="createdby">
