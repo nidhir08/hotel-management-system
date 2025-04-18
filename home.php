@@ -419,9 +419,16 @@ if($usermail == true){
 
   <section id="contactus">
     <div class="social">
+    <a href="mailto:nidhirawat519@gmail.com" target="_blank">
+  <i class="fa-brands fa-google"></i>
+</a>
     <a href="https://github.com/nidhir08" target="_blank">
   <i class="fa-brands fa-github"></i>
 </a>
+<a href="https://www.linkedin.com/in/nidhi-rawat-333721260/" target="_blank">
+  <i class="fa-brands fa-linkedin"></i>
+</a>
+
 
       <!--<i class="fa-brands fa-facebook"></i>
       <i class="fa-solid fa-envelope"></i> -->
